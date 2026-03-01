@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bea Muller | Psicóloga General Sanitaria</title>
+
+<style>
+:root {
+    --primary: #071133;
+    --light: #F0EFEB;
+    --accent: #25D366;
+}
+
+@font-face {
+    font-family: 'Ador';
+    src: url('AdorHairlineMedium.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ador', sans-serif;
+    background-color: var(--light);
+    color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    max-width: 520px;
+    width: 100%;
+    padding: 45px 35px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.06);
+    text-align: center;
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 25px;
+    border: 4px solid var(--light);
+}
+
+h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 14px;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+
+.description {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: 0.3s ease;
+    border: 1px solid var(--primary);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: var(--primary);
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: var(--primary);
+}
+
+.btn-outline:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+.phone-icon {
+    color: var(--accent);
+}
+
+footer {
+    margin-top: 35px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+@media (min-width: 768px) {
+    .card {
+        padding: 60px;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+    <!-- FOTO -->
+    <img src="foto.jpg" alt="Bea Muller" class="profile-img">
+
+    <h1>Bea Muller</h1>
+    <div class="subtitle">Psicóloga General Sanitaria</div>
+
+    <div class="description">
+        Psicóloga con más de 15 años de experiencia acompañando a personas y familias en momentos difíciles.
+        Especializada en Terapia Dialéctico-Conductual (DBT), ansiedad y terapia familiar.
+        Un espacio profesional, cercano y seguro donde trabajar el cambio con claridad y profundidad.
+    </div>
+
+    <div class="buttons">
+
+        <a href="tel:+34643802088" class="btn btn-primary">
+            <span class="phone-icon">📞</span> Llamar al 643 80 20 88
+        </a>
+
+        <a href="https://wa.me/34643802088" class="btn btn-primary" target="_blank">
+            💬 WhatsApp
+        </a>
+
+        <a href="https://instagram.com/TUUSUARIO" class="btn btn-outline" target="_blank">
+            📸 Instagram
+        </a>
+
+        <a href="mailto:info@beamullerpsicologa.com" class="btn btn-outline">
+            📩 info@beamullerpsicologa.com
+        </a>
+
+    </div>
+
+    <footer>
+        © 2026 Bea Muller · beamullerpsicologa.com
+    </footer>
+
+</div>
+
+</body>
+</html>
